@@ -9,6 +9,18 @@ module.exports = function (app) {
     app.post("/api/friends", function (req, res) {
 
     })
+
+    app.post("/api/friends", function (req, res){
+        var newFriend = req.body;
+
+        newFriend = newFriend.name.replace(/\s+/g, "").toLowerCase();
+
+        console.log(newFriend);
+
+        friends.push(newFriend);
+        
+        res.json(newFriend);
+    })
 }
 
 // Determine the user's most compatible friend using the following as a guide:
