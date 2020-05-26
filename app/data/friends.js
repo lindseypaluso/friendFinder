@@ -4,8 +4,8 @@
 // ===============================================================================
 var friends = [
     {
-      name: "Ahmed",
-      photo: "https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAq7AAAAJDAwYzI4NTQ4LWYwZWUtNGFkYS1hNTYwLTZjYzkwY2ViZDA3OA.jpg",
+      name: "Keanu Reeves",
+      photo: "https://media.newyorker.com/photos/5cf5728d47f7cc877a506d9b/master/pass/Fry-KeanuReeves-2.jpg",
       scores: [
         "5",
         "1",
@@ -20,8 +20,8 @@ var friends = [
       ]
     },
     {
-      name: "Jacob Deming",
-      photo: "https://pbs.twimg.com/profile_images/691785039043022849/oWsy8LNR.jpg",
+      name: "Bernie Sanders",
+      photo: "https://specials-images.forbesimg.com/imageserve/1204646928/960x0.jpg?fit=scale",
       scores: [
         "4",
         "2",
@@ -37,7 +37,7 @@ var friends = [
     },
     {
       name: "Jeremiah Scanlon",
-      photo: "https://avatars2.githubusercontent.com/u/8504998?v=3&s=460",
+      photo: "https://m.media-amazon.com/images/M/MV5BMjA1MjE2MTQ2MV5BMl5BanBnXkFtZTcwMjE5MDY0Nw@@._V1_.jpg",
       scores: [
         "5",
         "2",
@@ -52,8 +52,8 @@ var friends = [
       ]
     },
     {
-      name: "Louis T. Delia",
-      photo: "https://pbs.twimg.com/profile_images/639214960049000449/lNCRC-ub.jpg",
+      name: "Mystique",
+      photo: "https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Ftomward%2Ffiles%2F2016%2F05%2F150323-news-xmen-jennifer-lawrence.jpg",
       scores: [
         "3",
         "3",
@@ -68,8 +68,8 @@ var friends = [
       ]
     },
     {
-      name: "Lou Ritter",
-      photo: "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAkDAAAAJDhhZTI5NTk2LWQzZjUtNDJjZi1hMTM2LTQ3ZjNmYjE0YmY2NA.jpg",
+      name: "Marianne Williamson",
+      photo: "https://cdn.cnn.com/cnnnext/dam/assets/200223191746-marianne-williamson-endorses-bernie-sanders-2020-rally-austin-tx-exlarge-169.jpg",
       scores: [
         "4",
         "3",
@@ -84,8 +84,8 @@ var friends = [
       ]
     },
     {
-      name: "Jordan Biason",
-      photo: "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAisAAAAJGUxYzc4YzA0LWQxMzUtNGI4NS04YTFiLTkwYzM0YTZkNzA2NA.jpg",
+      name: "Young Thug",
+      photo: "https://media.gq.com/photos/56c39f0b480eac5d29f2ebe6/master/pass/young-thug-square.jpg",
       scores: [
         "4",
         "4",
