@@ -6,25 +6,44 @@ module.exports = function (app) {
     app.get("/api/friends", function (req, res) {
         res.json(friends);
     })
+
     app.post("/api/friends", function (req, res) {
-
-    })
-
-    app.post("/api/friends", function (req, res){
         var newFriend = req.body;
+        var answers = req.body.scores;
+        var bestMatch;
+        var bestMatchScoreDifference = 1000000;
+        var currentDiff;
 
-        newFriend = newFriend.name.replace(/\s+/g, "").toLowerCase();
+        // newFriend = newFriend.name.replace(/\s+/g, "").toLowerCase();
+        // loop over friends
+        for (var i = 0; i < friends.length; i++) {
+            currentDiff = 0;
 
-        console.log(newFriend);
+            // loop over answers
+            for (var j = 0; j < answers.length; j++) {
+                currentDiff += Math.abs(parseInt(friends[i].scores[j]) - parseInt(answers[j]));  
+            }
+            // check if the current difference is less than the bestMatchScoreDifference
+            if (currentDiff < bestMatchScoreDifference) {
+                bestMatchScoreDifference = currentDiff
+                bestMatch = friends[i];
+            }
+            // if yes, update the best match score diff = current diff
+
+        }
+ 
+        // console.log(newFriend);
 
         friends.push(newFriend);
-        
-        res.json(newFriend);
+        console.log(bestMatch)
+        res.json(bestMatch);
     })
 }
 
 // Determine the user's most compatible friend using the following as a guide:
-// Convert each user's results into a simple array of numbers (ex: [5, 1, 4, 4, 5, 1, 2, 5, 4, 1]).
+// Convert each user's results into a simple array of numbers (ex: [5, 1, 4, 4, 5, 1, 2, 5, 4, 1])
+
+
 // With that done, compare the difference between current user's scores against those from other users, question by question. (Loop over friends, and then loop over answers for each friend) Add up the differences to calculate the totalDifference.
 // Example:
 // User 1: [5, 1, 4, 4, 5, 1, 2, 5, 4, 1]

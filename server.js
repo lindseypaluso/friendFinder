@@ -1,11 +1,13 @@
 var express = require("express");
 var path = require("path");
+var cors = require("cors");
 
 var app = express();
 var PORT = process.env.PORT || 3000;
 //hand data parsing 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
+app.use(cors());
 
 // ================================================================================
 // ROUTER
