@@ -181,7 +181,7 @@
         </div>
         <div class="modal-body">
           <h2 id="match-name"></h2>
-          <img class ="img-fluid" img id="match-img" src="" alt="friend picture">
+          <img class ="img-fluid" img id="match-img" src="" alt="friend picture" width="580">
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -211,7 +211,7 @@ var allFieldsCompleted;
   // Event Listener for Submission
   $("#submit").on("click", function(event) {
       event.preventDefault();
-    console.log("submit button works")
+    
     
     // Check if all the user fields are completed
     checkIfComplete(function(){
@@ -295,8 +295,6 @@ function collectInputs(){
     // POST the newFriend to the friends.js file and get back the best match
     var currentURL = window.location.origin;
     $.post(currentURL + "/api/friends", newFriend, function(data){
-      console.log('Recieved rsponse from backend api route')
-      console.log(data)
       // Add Best Match attributes to Modal
       $('#match-name').text(data.name);
       $('#match-img').attr('src', data.photo);

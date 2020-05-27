@@ -53,7 +53,7 @@ var friends = [
     },
     {
       name: "Mystique",
-      photo: "/img/myst.jpghttps://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Ftomward%2Ffiles%2F2016%2F05%2F150323-news-xmen-jennifer-lawrence.jpg",
+      photo: "https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Ftomward%2Ffiles%2F2016%2F05%2F150323-news-xmen-jennifer-lawrence.jpg",
       scores: [
         "3",
         "3",
