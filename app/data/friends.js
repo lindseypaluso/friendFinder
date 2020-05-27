@@ -5,7 +5,7 @@
 var friends = [
     {
       name: "Keanu Reeves",
-      photo: "/img/keanu.jpg",
+      photo: "https://media.newyorker.com/photos/5cf5728d47f7cc877a506d9b/master/pass/Fry-KeanuReeves-2.jpg",
       scores: [
         "5",
         "1",
@@ -21,7 +21,7 @@ var friends = [
     },
     {
       name: "Bernie Sanders",
-      photo: "/img/bernie.jpg",
+      photo: "https://media.npr.org/assets/img/2020/03/26/gettyimages-1207563111_custom-3d252a15762569cd2c1afad07bb65235d9115c86-s800-c85.jpg",
       scores: [
         "4",
         "2",
@@ -37,7 +37,7 @@ var friends = [
     },
     {
       name: "Jeremiah Scanlon",
-      photo: "/img/brad.jpg",
+      photo: "https://m.media-amazon.com/images/M/MV5BMjA1MjE2MTQ2MV5BMl5BanBnXkFtZTcwMjE5MDY0Nw@@._V1_.jpg",
       scores: [
         "5",
         "2",
@@ -53,7 +53,7 @@ var friends = [
     },
     {
       name: "Mystique",
-      photo: "/img/myst.jpg",
+      photo: "/img/myst.jpghttps://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Ftomward%2Ffiles%2F2016%2F05%2F150323-news-xmen-jennifer-lawrence.jpg",
       scores: [
         "3",
         "3",
@@ -69,7 +69,7 @@ var friends = [
     },
     {
       name: "Marianne Williamson",
-      photo: "/img/marianne.jpg",
+      photo: "https://i.ytimg.com/vi/Cs6CUhXSJDI/maxresdefault.jpg",
       scores: [
         "4",
         "3",
@@ -85,7 +85,7 @@ var friends = [
     },
     {
       name: "Young Thug",
-      photo: "/img/yt.jpg",
+      photo: "https://media.gq.com/photos/56c39f0b480eac5d29f2ebe6/master/pass/young-thug-square.jpg",
       scores: [
         "4",
         "4",

@@ -35,7 +35,7 @@ module.exports = function (app) {
         // console.log(newFriend);
 
         friends.push(newFriend);
-        console.log(bestMatch)
+        console.log(bestMatch);
         res.json(bestMatch);
     })
 }
