@@ -1,0 +1,28 @@
+body {
+    background-image: url('./../img/heartline.png');
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* .jumbotron {
+    position: relative;
+    background-position: center;
+    display: flex;
+    align-items: center;
+  } */
+
+.jumbotron {
+    margin-top: 10%;
+ } 
+
+ .questions {
+     background-color: white;   
+ }
+
+ /* .container{
+    background-position: center;
+
+} */

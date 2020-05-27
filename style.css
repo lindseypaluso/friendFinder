@@ -1,0 +1,9 @@
+body {
+    background-image: url('./../img/heartline.png');
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background: blue;
+}
