@@ -1,5 +1,8 @@
+html {
+    background-color: red !important;
+}
 body {
-    background-image: url('./../img/heartline.png');
+    background-image: url('./img/heartline.png');
     background-size: cover;
     position: relative;
     background-position: center;
@@ -7,16 +10,17 @@ body {
     background-attachment: fixed;
 }
 
-/* .jumbotron {
+.jumbotron {
     position: relative;
     background-position: center;
     display: flex;
     align-items: center;
-  } */
-
+  }
+  
+/* 
 .jumbotron {
     margin-top: 10%;
- } 
+ }  */
 
 
  /* .container{
